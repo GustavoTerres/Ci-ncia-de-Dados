@@ -21,3 +21,15 @@ header {
     padding: 1px;
 }
 
+h1 {
+    font-size: 2rem;
+    color: var(--bg-color);
+    font-weight: 700;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    font-weight: 400;
+}
+
