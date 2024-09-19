@@ -4,4 +4,20 @@
     --bg-color: #222831;
     --primary-color: #DDDDDD;
     --secondary-color: #F05454;
+    --font: "Nunito Sans", sans-serif;
 }
+
+body {
+    background-color: var(--bg-color);
+    color: var(--primary-color);
+    font-family: var(--font);
+    height: 100vh;
+    margin: 0;
+}
+
+header {
+    background-color: var(--primary-color);
+    text-align: center;
+    padding: 1px;
+}
+
